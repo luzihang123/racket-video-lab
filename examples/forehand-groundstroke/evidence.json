@@ -1,0 +1,85 @@
+{
+  "shot_id": "shot_fh_20261007_0548",
+  "sport": "tennis",
+  "stroke_type": "forehand",
+  "player": {
+    "handedness": "right_handed",
+    "stance": "semi_open"
+  },
+  "source_video": {
+    "filename": "自己打网球的视频.MOV",
+    "duration_sec": 1134.73,
+    "fps": 59.94,
+    "resolution": "1080x1920"
+  },
+  "timestamp": {
+    "start_sec": 348.0,
+    "contact_sec": 350.3,
+    "end_sec": 352.0
+  },
+  "phases": {
+    "phase1_ready": {
+      "timestamp_sec": 349.67,
+      "image": "phase1_ready.jpg",
+      "description": "准备与来球预判，重心降低"
+    },
+    "phase2_unit_turn": {
+      "timestamp_sec": 350.13,
+      "image": "phase2_unit_turn.jpg",
+      "description": "侧身转肩与引拍启动"
+    },
+    "phase3_drop_lag": {
+      "timestamp_sec": 350.27,
+      "image": "phase3_drop_lag.jpg",
+      "description": "拍头下沉与蓄力"
+    },
+    "phase4_contact": {
+      "timestamp_sec": 350.30,
+      "image": "phase4_contact.jpg",
+      "description": "触球瞬间，拍面受力"
+    },
+    "phase5_finish": {
+      "timestamp_sec": 350.58,
+      "image": "phase5_finish.jpg",
+      "description": "随挥与收拍完成"
+    }
+  },
+  "metrics": {
+    "shoulder_turn_angle_deg": 48.0,
+    "optimal_shoulder_turn_range": [75.0, 90.0],
+    "contact_point_rel_front_foot_cm": 0.0,
+    "optimal_contact_point_range_cm": [20.0, 30.0],
+    "head_stability_score": 0.95
+  },
+  "diagnosis": {
+    "strengths": [
+      "全程紧盯来球，触球瞬间头颈极度稳定，视线无提前移开",
+      "脚步到位干脆，站位平衡稳定"
+    ],
+    "issues": [
+      {
+        "issue": "arm_dominant_swing",
+        "severity": "high",
+        "description": "引拍转肩不充分（约48度），下肢与躯干动力链未深度参与，主要依赖手臂推球"
+      },
+      {
+        "issue": "late_contact_point",
+        "severity": "high",
+        "description": "击球点与身体/前脚齐平，小臂受挤压，无法充分利用向前冲力发力"
+      },
+      {
+        "issue": "abbreviated_follow_through",
+        "severity": "medium",
+        "description": "随挥偏短偏平，拍面雨刷式向上刷球不足，上旋弧线与容错率较低"
+      }
+    ],
+    "drills": [
+      "非持拍手横向指球，强迫转肩至90度并在身体正前方引击",
+      "由低到高雨刷式随挥练习，增强过网安全弧线"
+    ]
+  },
+  "media": {
+    "clip_video": "clip.mp4",
+    "animated_preview": "swing.gif"
+  }
+}

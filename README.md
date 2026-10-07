@@ -11,6 +11,8 @@ Mac mini 上运行的本地优先小球运动视频分析项目。第一阶段�
 - [竞品分析](docs/competitor-analysis.md)：延续前期对话中的 10 个竞品，区分已核实信息与产品判断。
 - [工程目录与架构](docs/architecture.md)：推荐的单仓库目录树、模块职责和依赖方向。
 - [技术调研](docs/technical-research.md)：FastAPI、MCP、任务执行、媒体处理与 Mac mini 部署的资料。
+- [实战分析经验与 Pipeline 启示](docs/video-analysis-insights.md)：基于 iPhone 真实 19 分钟实战网球视频沉淀的粗细漏斗处理、夜间 ROI 裁剪与生物力学规则库。
+- [参考基准样例 (Example)](examples/forehand-groundstroke/README.md)：正手动作的完整证据包样本（短视频 clip、GIF、5 阶段关键帧与结构化 JSON）。
 
 ## 第一阶段范围
 
